@@ -61,47 +61,47 @@ Land per Panel (with spacing)	4 m²
 📐 Methodology
 1. Data Cleaning & Preprocessing
 
-Removal of missing values (-999)
+   Removal of missing values (-999)
 
-Conversion of DOY to actual calendar dates
+   Conversion of DOY to actual calendar dates
 
 2. Site-Level Metrics Calculation
 
-Average, peak, minimum, and variability of irradiance
+   Average, peak, minimum, and variability of irradiance
 
-Conversion from MJ/m²/day → kWh/m²/day
+   Conversion from MJ/m²/day → kWh/m²/day
 
 3. Solar Potential Estimation
 
-Daily & annual energy output per panel
+   Daily & annual energy output per panel
 
-Panels required for 1 MW nameplate capacity
+   Panels required for 1 MW nameplate capacity
 
-Land requirement estimation (hectares)
+   Land requirement estimation (hectares)
 
-Capacity factor calculation
+   Capacity factor calculation
 
 4. Site Ranking
 
-Composite solar score based on:
+   Composite solar score based on:
 
-Average irradiance
+   Average irradiance
 
-Capacity factor
+   Capacity factor
 
-Peak irradiance
+   Peak irradiance
 
-Irradiance stability
+   Irradiance stability
 
 5. Machine Learning Prediction
 
-Predict solar irradiance using Latitude & Longitude
+   Predict solar irradiance using Latitude & Longitude
 
-Models supported:
+   Models supported:
 
-Random Forest Regressor
+   Random Forest Regressor
 
-Linear Regression
+   Linear Regression
 
 📊 Visualizations Included
 

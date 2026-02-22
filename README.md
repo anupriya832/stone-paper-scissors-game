@@ -34,13 +34,13 @@ Programming Language: Python
 
 Libraries Used:
 
-pandas, numpy – Data processing
+1. pandas, numpy – Data processing
 
-matplotlib, seaborn – Visualization
+2. matplotlib, seaborn – Visualization
 
-scikit-learn – Machine Learning
+3. scikit-learn – Machine Learning
 
-scipy – Interpolation & numerical utilities
+4. scipy – Interpolation & numerical utilities
 
 📂 Dataset
 
@@ -59,20 +59,19 @@ Panel Efficiency	23%
 Panel Area	2.0 m²
 Land per Panel (with spacing)	4 m²
 📐 Methodology
-
-Data Cleaning & Preprocessing
+1. Data Cleaning & Preprocessing
 
 Removal of missing values (-999)
 
 Conversion of DOY to actual calendar dates
 
-Site-Level Metrics Calculation
+2. Site-Level Metrics Calculation
 
 Average, peak, minimum, and variability of irradiance
 
 Conversion from MJ/m²/day → kWh/m²/day
 
-Solar Potential Estimation
+3. Solar Potential Estimation
 
 Daily & annual energy output per panel
 
@@ -82,7 +81,7 @@ Land requirement estimation (hectares)
 
 Capacity factor calculation
 
-Site Ranking
+4. Site Ranking
 
 Composite solar score based on:
 
@@ -94,7 +93,7 @@ Peak irradiance
 
 Irradiance stability
 
-Machine Learning Prediction
+5. Machine Learning Prediction
 
 Predict solar irradiance using Latitude & Longitude
 
@@ -106,14 +105,14 @@ Linear Regression
 
 📊 Visualizations Included
 
-Geographic irradiance distribution
+1.Geographic irradiance distribution
 
-Top-ranked solar sites
+2.Top-ranked solar sites
 
-Capacity factor histogram
+3.Capacity factor histogram
 
-Solar output vs latitude
+4.Solar output vs latitude
 
-Land requirement vs irradiance
+5.Land requirement vs irradiance
 
-Daily energy yield per MW comparison
+6.Daily energy yield per MW comparison
